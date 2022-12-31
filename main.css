@@ -1,0 +1,60 @@
+html{
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #1488CC;
+  background: -webkit-linear-gradient(to bottom, #2B32B2, #1488CC);
+  background: linear-gradient(to bottom, #2B32B2, #1488CC);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.card{
+  width: 95%;
+  margin: 10px 0px;
+  background-color: #fff;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.card img {
+  width: 50%;
+  margin: 20px 0;
+}
+/* not open */
+.message-not-open{
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* open */
+.message-open{
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message-open-2{
+  width: 100%;
+  padding: 20px 20px 70px;
+  /* height: 100vh; */
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
